@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="https://ninjasfiles.s3.amazonaws.com/0000000000001485.png">
+    
     <title>
       Walk through my first HTML page
     </title>
+    <meta name="description" content=" ">
+    <meta name="keywords" content="coding, HTML">
+    <meta name="author" content="Mayank Singhal">
     <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png">
     <h2>
-      <a href="blog.codingninjas.in">blog.codingninjas.in</a>
+      <a href="https://leetcode.com/problems/minimum-replacements-to-sort-the-array/">blog.codingninjas.in</a>
     </h2>
-    Coding Ninjas Official Blog  <br>
+    Coding &nbsp; &ensp; &emsp;Ninjas Official Blog  <br>
     <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png">
   </head>
-  <body>
+  <body bgcolor="black" text="yellow">
     
         <p>
           HTML is a short for HyperText Markup Language.
@@ -42,6 +47,125 @@
             <li type="square"> For eg. here &nbsp &nbsp &nbsp are 3 spaces</li>
           </ul>
         </p>
+        <p>
+        <b> Making a table : </b>
+        <table border="2" bgcolor="biege">
+          <caption> B.Tech Result </caption> 
+          <tr>
+            <td> </td>
+            <th>SEM 1</th>
+            <th>SEM 2</th>
+            <th>SEM 3</th>
+            <th>SEM 4</th>
+          </tr>
+
+          <tr>
+            <th> CGPA </th>
+            <td> 9.5</td>
+            <td> 9.18</td>
+            <td> 8.91</td>
+            <td> 9.18</td>
+          </tr>
+        </table>
+        Table is a block tag
+        </p>
         
+        <form>
+
+          <div>
+            <label for="Username"> Email </label>
+            <br>
+            <input type="email" id="Username" name="username"
+            required placeholder="abc@eg.com"> 
+          </div>
+
+          <div>
+            <label for="country">Country</label>
+            <br>
+            <input type="text" id="country" name="Country"
+             required value="India" disabled>
+          </div>
+
+          <div>
+            <input type ="submit">
+          </div>
+
+        </form>
+
+<hr>
+
+        <form>
+
+          <div>
+              <p>Gender</p>
+            <input type="radio" name="GEN" value="male">Male
+            <br>
+            <input type="radio" name="GEN" value="female">Female
+            <br>
+            <input type="radio" name="GEN" value="other" checked>Other
+            <br>
+          </div>
+
+        </form>
+
+      <hr>
+
+      <form>
+
+          <p>Course Done</p>
+          <input type="checkbox" name="course" value="c++" checked >C++
+          <br>
+          <input type="checkbox" name="course" value="java">Java
+          <br>
+          <input type="checkbox" name="course" value="python">Python
+      </form>
+
+      <form>
+        <p>Month</p>
+        <select multiple>
+          <option name="month">Jan</option>
+          <option name="month" selected>Feb</option>
+          <option name="month">Mar</option>
+          <option name="month">Apr</option>
+        </select>
+          <p>Share you experience</p>
+          <textarea name="exp" rows="10" cols="30">Please share your experience</textarea>
+            <br>
+            <input type="button" value="prev">
+
+      </form>
+
+      <audio controls>
+        <source src="static/audio.mp3" type="audio/mp3">
+      </audio>
+
+      <video controls>
+        <source src="" type="">
+      </video>
+
+      <figure>
+        <img src = "https://ninjasfiles.s3.amazonaws.com/0000000000001486.jpeg"
+        height="100" width="200">
+        <figcaption>Code image</figcaption>
+      </figure>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YH-LqzHsMto?si=L94mJvU6-om8p_lb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+
+      <p><strong>Already registered?<u> LOGIN </u>now</strong>
+      </p>
+      <form>
+        <label for="mail">Email</label>
+        <input type="email" name="mail" placeholder="abc@gmail.com">
+
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        
+        <button type="button">
+          <img height="10" width="10" src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png">
+          Login
+        </button>
+      </form>
+
   </body>
 </html>
